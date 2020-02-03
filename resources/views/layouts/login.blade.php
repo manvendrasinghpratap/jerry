@@ -30,8 +30,9 @@
     <link href="{{asset('public/assets/css/dashforge.auth.css') }}" rel="stylesheet">
 </head>
 <body>
+     @include('common.header')  
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm" style="display: none;">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
@@ -82,9 +83,17 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        <main class="py-4_">
             @yield('content')
         </main>
     </div>
-</body>
+    @include('common.footer')
+    <!-- Div for footer End -->
+   <!-- All  common js is include in js blade file Begin-->
+    @include('common.js')
+   <!-- All  common js is include in js blade file End.-->
+
+
+  </body>
+
 </html>
