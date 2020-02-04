@@ -91,7 +91,7 @@
             <div class="dropdown-header">New Messages</div>
             <a href="#" class="dropdown-item">
               <div class="media">
-                <div class="avatar avatar-sm avatar-online"><img src="{{ asset('public/assets/img/img6.png') }}" class="rounded-circle" alt=""></div>
+                <div class="avatar avatar-sm avatar-online"><img src="{{ asset('public/assets/img/img26.jpg') }}" class="rounded-circle" alt=""></div>
                 <div class="media-body mg-l-15">
                   <strong>Socrates Itumay</strong>
                   <p>nam libero tempore cum so...</p>
@@ -101,7 +101,7 @@
             </a>
             <a href="#" class="dropdown-item">
               <div class="media">
-                <div class="avatar avatar-sm avatar-online"><img src="{{ asset('public/assets/img/img8.png') }}" class="rounded-circle" alt=""></div>
+                <div class="avatar avatar-sm avatar-online"><img src="{{ asset('public/assets/img/img23.jpg') }}" class="rounded-circle" alt=""></div>
                 <div class="media-body mg-l-15">
                   <strong>Joyce Chua</strong>
                   <p>on the other hand we denounce...</p>
@@ -111,7 +111,7 @@
             </a>
             <a href="#" class="dropdown-item">
               <div class="media">
-                <div class="avatar avatar-sm avatar-online"><img src="{{ asset('public/assets/img/img7.png') }}" class="rounded-circle" alt=""></div>
+                <div class="avatar avatar-sm avatar-online"><img src="{{ asset('public/assets/img/img25.jpg') }}" class="rounded-circle" alt=""></div>
                 <div class="media-body mg-l-15">
                   <strong>Althea Cabardo</strong>
                   <p>is there anyone who loves...</p>
@@ -121,7 +121,7 @@
             </a>
             <a href="#" class="dropdown-item">
               <div class="media">
-                <div class="avatar avatar-sm avatar-online"><img src="{{ asset('public/assets/img/img9.png') }}" class="rounded-circle" alt=""></div>
+                <div class="avatar avatar-sm avatar-online"><img src="{{ asset('public/assets/img/img25.jpg') }}" class="rounded-circle" alt=""></div>
                 <div class="media-body mg-l-15">
                   <strong>Adrian Monino</strong>
                   <p>duis aute irure dolor in repre...</p>
@@ -141,7 +141,7 @@
             <div class="dropdown-header">Notifications</div>
             <a href="#" class="dropdown-item">
               <div class="media">
-                <div class="avatar avatar-sm avatar-online"><img src="{{ asset('public/assets/img/img6.png') }}" class="rounded-circle" alt=""></div>
+                <div class="avatar avatar-sm avatar-online"><img src="{{ asset('public/assets/img/img26.jpg') }}" class="rounded-circle" alt=""></div>
                 <div class="media-body mg-l-15">
                   <p>Congratulate <strong>Socrates Itumay</strong> for work anniversaries</p>
                   <span>Mar 15 12:32pm</span>
@@ -150,7 +150,7 @@
             </a>
             <a href="#" class="dropdown-item">
               <div class="media">
-                <div class="avatar avatar-sm avatar-online"><img src="{{ asset('public/assets/img/img8.png') }}" class="rounded-circle" alt=""></div>
+                <div class="avatar avatar-sm avatar-online"><img src="{{ asset('public/assets/img/img22.jpg') }}" class="rounded-circle" alt=""></div>
                 <div class="media-body mg-l-15">
                   <p><strong>Joyce Chua</strong> just created a new blog post</p>
                   <span>Mar 13 04:16am</span>
@@ -159,7 +159,7 @@
             </a>
             <a href="#" class="dropdown-item">
               <div class="media">
-                <div class="avatar avatar-sm avatar-online"><img src="{{ asset('public/assets/img/img7.png') }}" class="rounded-circle" alt=""></div>
+                <div class="avatar avatar-sm avatar-online"><img src="{{ asset('public/assets/img/img27.jpg') }}" class="rounded-circle" alt=""></div>
                 <div class="media-body mg-l-15">
                   <p><strong>Althea Cabardo</strong> just created a new blog post</p>
                   <span>Mar 13 02:56am</span>
@@ -168,7 +168,7 @@
             </a>
             <a href="#" class="dropdown-item">
               <div class="media">
-                <div class="avatar avatar-sm avatar-online"><img src="{{ asset('public/assets/img/img9.png') }}" class="rounded-circle" alt=""></div>
+                <div class="avatar avatar-sm avatar-online"><img src="{{ asset('public/assets/img/img29.jpg') }}" class="rounded-circle" alt=""></div>
                 <div class="media-body mg-l-15">
                   <p><strong>Adrian Monino</strong> added new comment on your photo</p>
                   <span>Mar 12 10:40pm</span>

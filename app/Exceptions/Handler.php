@@ -50,8 +50,9 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $exception)
     {
-        $exception->getStatusCode();
-        switch ($exception->getStatusCode()) {
+        
+        return parent::render($request, $exception);
+        /*switch ($exception->getStatusCode()) {
             case '404':
                 return response()->view('errors.404');
                 break;
@@ -67,6 +68,6 @@ class Handler extends ExceptionHandler
             default:
                 return parent::render($request, $exception);
             break;
-        }
+        }*/
     }
 }
