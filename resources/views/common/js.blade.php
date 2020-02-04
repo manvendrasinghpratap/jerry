@@ -5,4 +5,5 @@
 <script src="{{ asset('public/assets/js/dashforge.js')}}"></script>
 <!-- append theme customizer -->
 <script src="{{ asset('public/lib/js-cookie/js.cookie.js')}}"></script>
-<!--<script src="{{ asset('public/assets/js/dashforge.settings.js')}}"></script>
+<!--<script src="{{ asset('public/assets/js/dashforge.settings.js')}}"></script>-->
+<script src="{{ asset('public/js/common.js')}}"></script>

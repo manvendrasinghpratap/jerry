@@ -1,4 +1,4 @@
-<header class="navbar navbar-header navbar-header-fixed" style="display: none;">
+<header class="navbar navbar-header navbar-header-fixed" style="display: none-;">
       <a href="#" id="mainMenuOpen" class="burger-menu"><i data-feather="menu"></i></a>
       <div class="navbar-brand" >
         <a href="{{ url('/')}}" class="df-logo" title="Client Management System">JCH <span> CMS</span></a>
@@ -182,7 +182,7 @@
           <a href="#" class="dropdown-link" data-toggle="dropdown" data-display="static">
             <div class="avatar avatar-sm"><img src="{{ asset('public/assets/img/img1.png') }}" class="rounded-circle" alt=""></div>
           </a><!-- dropdown-link -->
-          <div class="dropdown-menu dropdown-menu-right tx-13">
+          <div class="dropdown-menu dropdown-menu-right tx-13" id="profile-setting">
             <div class="avatar avatar-lg mg-b-15"><img src="{{ asset('public/assets/img/img1.png') }}" class="rounded-circle" alt=""></div>
             <h6 class="tx-semibold mg-b-5">Katherine Pechon</h6>
             <p class="mg-b-25 tx-12 tx-color-03">Administrator</p>

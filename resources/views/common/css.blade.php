@@ -8,3 +8,5 @@
 <link href="{{asset('public/assets/css/dashforge.css') }}" rel="stylesheet">
 <link href="{{asset('public/assets/css/dashforge.auth.css') }}" rel="stylesheet">
 <link href="{{asset('public/css/custom.css') }}" rel="stylesheet">
+<link href="{{ asset('public/assets/css/skin.cool.css') }}" rel="stylesheet">
+<!--<link href="{{ asset('public/assets/css/skin.light.css') }}" rel="stylesheet">-->
