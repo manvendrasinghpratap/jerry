@@ -18,6 +18,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('public/css/app.css') }}" rel="stylesheet">
+    @include('common.css')
 </head>
 <body>
     <div id="app">

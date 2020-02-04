@@ -14,20 +14,8 @@
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
-    <!-- Styles -->
-    <link href="{{ asset('public/css/app.css') }}" rel="stylesheet">
-
-
-     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('public/assets/img/favicon.png')}}">
-    <!-- vendor css -->
-    <link href="{{asset('public/lib/fortawesome/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
-    <link href="{{asset('public/lib/ionicons/css/ionicons.min.css') }}" rel="stylesheet">
-
-    <!-- DashForge CSS -->
-    <link href="{{asset('public/assets/css/dashforge.css') }}" rel="stylesheet">
-    <link href="{{asset('public/assets/css/dashforge.auth.css') }}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">    
+    @include('common.css')
 </head>
 <body>
      @include('common.header')  

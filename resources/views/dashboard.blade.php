@@ -392,7 +392,7 @@
                   </div>
                 </li>
                 <li class="list-group-item d-flex pd-x-20">
-                  <div class="avatar"><img src="../../assets/img/img23.jpg" class="rounded-circle" alt=""></div>
+                  <div class="avatar"><img src="{{ asset('public/assets/img/img23.jpg') }} " class="rounded-circle" alt=""></div>
                   <div class="pd-l-10">
                     <p class="tx-medium mg-b-0">Reynante Labares</p>
                     <small class="tx-12 tx-color-03 mg-b-0">Customer ID#00221</small>
@@ -407,7 +407,7 @@
                   </div>
                 </li>
                 <li class="list-group-item d-flex pd-x-20">
-                  <div class="avatar"><img src="../../assets/img/img16.jpg" class="rounded-circle" alt=""></div>
+                  <div class="avatar"><img src="{{ asset('public/assets/img/img16.jpg')}} " class="rounded-circle" alt=""></div>
                   <div class="pd-l-10">
                     <p class="tx-medium mg-b-0">Marianne Audrey</p>
                     <small class="tx-12 tx-color-03 mg-b-0">Customer ID#00220</small>
