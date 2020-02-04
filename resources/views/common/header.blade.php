@@ -1,4 +1,4 @@
-<header class="navbar navbar-header navbar-header-fixed">
+<header class="navbar navbar-header navbar-header-fixed" style="display: none;">
       <a href="#" id="mainMenuOpen" class="burger-menu"><i data-feather="menu"></i></a>
       <div class="navbar-brand" >
         <a href="{{ url('/')}}" class="df-logo" title="Client Management System">JCH <span> CMS</span></a>
@@ -36,12 +36,11 @@
             </ul>
           </li>
            <li class="nav-item with-sub">
-            <a href="#" class="nav-link"><i data-feather="package"></i>Clinical</a>
+            <a href="#" class="nav-link"><i data-feather="package"></i> Clinical</a>
             <ul class="navbar-menu-sub">
               <li class="nav-sub-item"><a href="app-calendar.html" class="nav-sub-link"><i data-feather="calendar"></i>Calendar</a></li>
             </ul>
           </li>
-
           <li class="nav-item with-sub">
             <a href="#" class="nav-link"><i data-feather="layers"></i> Admin</a>
             <div class="navbar-menu-sub">
@@ -187,7 +186,6 @@
             <div class="avatar avatar-lg mg-b-15"><img src="{{ asset('public/assets/img/img1.png') }}" class="rounded-circle" alt=""></div>
             <h6 class="tx-semibold mg-b-5">Katherine Pechon</h6>
             <p class="mg-b-25 tx-12 tx-color-03">Administrator</p>
-
             <a href="#" class="dropdown-item"><i data-feather="edit-3"></i> Edit Profile</a>
             <a href="page-profile-view.html" class="dropdown-item"><i data-feather="user"></i> View Profile</a>
             <div class="dropdown-divider"></div>
@@ -214,11 +212,8 @@
             <li><a href="http://themepixels.me/dashforge/collections/modal.html">modal examples</a></li>
             <li><a href="http://themepixels.me/dashforge/components/el-avatar.html">avatar</a></li>
           </ul>
-
           <hr class="mg-y-30 bd-0">
-
           <label class="tx-10 tx-medium tx-uppercase tx-spacing-1 tx-color-03 mg-b-10 d-flex align-items-center">Search Suggestions</label>
-
           <ul class="list-unstyled">
             <li><a href="dashboard-one.html">cryptocurrency</a></li>
             <li><a href="app-calendar.html">button groups</a></li>
@@ -227,5 +222,5 @@
           </ul>
         </div><!-- navbar-search-body -->
       </div><!-- navbar-search -->
-            @endauth
+      @endauth
     </header><!-- navbar -->
