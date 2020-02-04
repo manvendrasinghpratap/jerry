@@ -12846,7 +12846,7 @@ textarea.parsley-success:focus {
       flex: 1; } }
   @media (min-width: 1200px) {
     .navbar-menu-wrapper {
-      padding: 0 30px; } }
+      padding: 0 0px; } }
   .navbar-menu-wrapper > .ps__rail-y {
     display: none; }
 

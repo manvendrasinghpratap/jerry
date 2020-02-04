@@ -1,6 +1,6 @@
 <footer class="footer">
   <div>
-    <span>&copy; {{date('Y')}}. </span>
+    <span>&copy; {{date('Y')}}. All Right Reserved</span>
     <span>Created by <a href="http://themepixels.me/">{{ config('app.name', 'Laravel') }}</a></span>
   </div>
   <div>
