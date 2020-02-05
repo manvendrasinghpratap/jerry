@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateUserProfilesTable extends Migration
+class CreateJchRegionTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,11 @@ class CreateUserProfilesTable extends Migration
      */
     public function up()
     {
-        Schema::create('user_profiles', function (Blueprint $table) {
+        Schema::create('jch_regions', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('first_name',100);
-            $table->string('middle_name',100);
-            $table->string('last_name',100);
+            $table->string('region','100');
+            $table->tinyInteger('status')->default(0);
+            $table->softdeletes();
             $table->timestamps();
         });
     }
@@ -29,6 +29,6 @@ class CreateUserProfilesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('user_profiles');
+        Schema::dropIfExists('jch_regions');
     }
 }
