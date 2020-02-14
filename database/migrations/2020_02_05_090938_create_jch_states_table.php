@@ -13,7 +13,7 @@ class CreateJchStatesTable extends Migration
      */
     public function up()
     {
-        Schema::create('jch_states', function (Blueprint $table) {
+        Schema::create('states', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('abbr');
             $table->string('state_name');
@@ -30,6 +30,6 @@ class CreateJchStatesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('jch_states');
+        Schema::dropIfExists('states');
     }
 }

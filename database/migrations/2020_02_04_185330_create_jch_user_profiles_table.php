@@ -13,7 +13,7 @@ class CreateJchUserProfilesTable extends Migration
      */
     public function up()
     {
-        Schema::create('jch_user_profiles', function (Blueprint $table) {
+        Schema::create('user_profiles', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('first_name',100);
             $table->string('middle_name',100);
@@ -29,6 +29,6 @@ class CreateJchUserProfilesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('jch_user_profiles');
+        Schema::dropIfExists('user_profiles');
     }
 }

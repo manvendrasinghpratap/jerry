@@ -13,7 +13,7 @@ class CreateJchJobTitlesTable extends Migration
      */
     public function up()
     {
-        Schema::create('jch_job_titles', function (Blueprint $table) {
+        Schema::create('job_titles', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('code',20);
             $table->string('title',100);
@@ -30,6 +30,6 @@ class CreateJchJobTitlesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('jch_job_title');
+        Schema::dropIfExists('job_titles');
     }
 }

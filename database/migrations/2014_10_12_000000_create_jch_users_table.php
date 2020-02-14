@@ -13,7 +13,7 @@ class CreateJchUsersTable extends Migration
      */
     public function up()
     {
-        Schema::create('jch_users', function (Blueprint $table) {
+        Schema::create('users', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('email')->unique();
@@ -32,6 +32,6 @@ class CreateJchUsersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('jch_users');
+        Schema::dropIfExists('users');
     }
 }

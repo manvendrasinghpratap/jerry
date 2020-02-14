@@ -13,7 +13,7 @@ class CreateJchStaffsTable extends Migration
      */
    public function up()
     {
-        Schema::create('jch_staff', function (Blueprint $table) {
+        Schema::create('staff', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('first_name');
             $table->string('middle_name')->nullable(true);
@@ -25,19 +25,19 @@ class CreateJchStaffsTable extends Migration
             $table->string('address')->nullable(true);
             $table->string('city')->nullable(true);
             $table->unsignedBigInteger('state_id');
-            $table->foreign('state_id')->references('id')->on('jch_states');
+            $table->foreign('state_id')->references('id')->on('states');
             $table->string('zipcode')->nullable(true);
             $table->string('email')->unique();
             $table->string('social_security',100)->nullable(true);
             $table->integer('phone_no')->nullable(true);
             $table->unsignedBigInteger('region_id');
-            $table->foreign('region_id')->references('id')->on('jch_regions');  
+            $table->foreign('region_id')->references('id')->on('regions');  
             $table->unsignedBigInteger('job_title_id');
-            $table->foreign('job_title_id')->references('id')->on('jch_job_titles');           
+            $table->foreign('job_title_id')->references('id')->on('job_titles');           
             $table->integer('emergency_contact_name')->nullable(true);
             $table->integer('emergency_contact_number')->nullable(true);
             $table->unsignedBigInteger('profession_id');
-            $table->foreign('profession_id')->references('id')->on('jch_professions');  
+            $table->foreign('profession_id')->references('id')->on('professions');  
             $table->string('licence',100)->nullable(true);
             $table->dateTime('licence_exp_date')->nullable(true);
             $table->dateTime('cpr_card_exp_date')->nullable(true);
@@ -58,6 +58,6 @@ class CreateJchStaffsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('jch_staffs');
+        Schema::dropIfExists('staffs');
     }
 }

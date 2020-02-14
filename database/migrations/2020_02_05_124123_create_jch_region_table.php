@@ -13,7 +13,7 @@ class CreateJchRegionTable extends Migration
      */
     public function up()
     {
-        Schema::create('jch_regions', function (Blueprint $table) {
+        Schema::create('regions', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('region','100');
             $table->tinyInteger('status')->default(0);
@@ -29,6 +29,6 @@ class CreateJchRegionTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('jch_regions');
+        Schema::dropIfExists('regions');
     }
 }

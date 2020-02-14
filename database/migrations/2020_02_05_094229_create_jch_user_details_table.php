@@ -13,7 +13,7 @@ class CreateJchUserDetailsTable extends Migration
      */
     public function up()
     {
-        Schema::create('jch_user_details', function (Blueprint $table) {
+        Schema::create('user_details', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->tinyInteger('status')->default(0);
             $table->timestamps();
@@ -27,6 +27,6 @@ class CreateJchUserDetailsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('jch_user_details');
+        Schema::dropIfExists('user_details');
     }
 }

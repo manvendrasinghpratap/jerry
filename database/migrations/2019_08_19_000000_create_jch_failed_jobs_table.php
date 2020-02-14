@@ -13,7 +13,7 @@ class CreateJchFailedJobsTable extends Migration
      */
     public function up()
     {
-        Schema::create('jch_failed_jobs', function (Blueprint $table) {
+        Schema::create('failed_jobs', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->text('connection');
             $table->text('queue');
@@ -30,6 +30,6 @@ class CreateJchFailedJobsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('jch_failed_jobs');
+        Schema::dropIfExists('failed_jobs');
     }
 }

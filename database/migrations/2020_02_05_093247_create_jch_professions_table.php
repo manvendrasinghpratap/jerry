@@ -13,7 +13,7 @@ class CreateJchProfessionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('jch_professions', function (Blueprint $table) {
+        Schema::create('professions', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('profession');
             $table->tinyInteger('status')->default(0);
@@ -29,6 +29,6 @@ class CreateJchProfessionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('jch_professions');
+        Schema::dropIfExists('professions');
     }
 }

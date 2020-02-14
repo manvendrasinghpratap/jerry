@@ -13,7 +13,7 @@ class CreateJchClientTable extends Migration
      */
     public function up()
     {
-        Schema::create('jch_client', function (Blueprint $table) {
+        Schema::create('client', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->tinyInteger('status')->default(0);
             $table->timestamps();
@@ -27,6 +27,6 @@ class CreateJchClientTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('jch_client');
+        Schema::dropIfExists('client');
     }
 }
